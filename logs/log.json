@@ -1,0 +1,315 @@
+{
+  "@timestamp" : "2021-12-20T23:00:40.376+09:00",
+  "@version" : "1",
+  "message" : "Starting ShopxApplication using Java 11.0.13 on leejonghaui-MacBook-Pro.local with PID 10307 (/Users/lovelazur01/IdeaProjects/shopx/build/classes/java/main started by lovelazur01 in /Users/lovelazur01/IdeaProjects/shopx)",
+  "logger_name" : "com.lovelazur.shopx.ShopxApplication",
+  "thread_name" : "restartedMain",
+  "level" : "INFO",
+  "level_value" : 20000
+}
+{
+  "@timestamp" : "2021-12-20T23:00:40.381+09:00",
+  "@version" : "1",
+  "message" : "The following profiles are active: dev",
+  "logger_name" : "com.lovelazur.shopx.ShopxApplication",
+  "thread_name" : "restartedMain",
+  "level" : "INFO",
+  "level_value" : 20000
+}
+{
+  "@timestamp" : "2021-12-20T23:00:40.409+09:00",
+  "@version" : "1",
+  "message" : "Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable",
+  "logger_name" : "org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor",
+  "thread_name" : "restartedMain",
+  "level" : "INFO",
+  "level_value" : 20000
+}
+{
+  "@timestamp" : "2021-12-20T23:00:40.409+09:00",
+  "@version" : "1",
+  "message" : "For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'",
+  "logger_name" : "org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor",
+  "thread_name" : "restartedMain",
+  "level" : "INFO",
+  "level_value" : 20000
+}
+{
+  "@timestamp" : "2021-12-20T23:00:41.068+09:00",
+  "@version" : "1",
+  "message" : "Bootstrapping Spring Data JPA repositories in DEFAULT mode.",
+  "logger_name" : "org.springframework.data.repository.config.RepositoryConfigurationDelegate",
+  "thread_name" : "restartedMain",
+  "level" : "INFO",
+  "level_value" : 20000
+}
+{
+  "@timestamp" : "2021-12-20T23:00:41.106+09:00",
+  "@version" : "1",
+  "message" : "Finished Spring Data repository scanning in 31 ms. Found 1 JPA repository interfaces.",
+  "logger_name" : "org.springframework.data.repository.config.RepositoryConfigurationDelegate",
+  "thread_name" : "restartedMain",
+  "level" : "INFO",
+  "level_value" : 20000
+}
+{
+  "@timestamp" : "2021-12-20T23:00:41.557+09:00",
+  "@version" : "1",
+  "message" : "Tomcat initialized with port(s): 8080 (http)",
+  "logger_name" : "org.springframework.boot.web.embedded.tomcat.TomcatWebServer",
+  "thread_name" : "restartedMain",
+  "level" : "INFO",
+  "level_value" : 20000
+}
+{
+  "@timestamp" : "2021-12-20T23:00:41.564+09:00",
+  "@version" : "1",
+  "message" : "Initializing ProtocolHandler [\"http-nio-8080\"]",
+  "logger_name" : "org.apache.coyote.http11.Http11NioProtocol",
+  "thread_name" : "restartedMain",
+  "level" : "INFO",
+  "level_value" : 20000
+}
+{
+  "@timestamp" : "2021-12-20T23:00:41.565+09:00",
+  "@version" : "1",
+  "message" : "Starting service [Tomcat]",
+  "logger_name" : "org.apache.catalina.core.StandardService",
+  "thread_name" : "restartedMain",
+  "level" : "INFO",
+  "level_value" : 20000
+}
+{
+  "@timestamp" : "2021-12-20T23:00:41.565+09:00",
+  "@version" : "1",
+  "message" : "Starting Servlet engine: [Apache Tomcat/9.0.55]",
+  "logger_name" : "org.apache.catalina.core.StandardEngine",
+  "thread_name" : "restartedMain",
+  "level" : "INFO",
+  "level_value" : 20000
+}
+{
+  "@timestamp" : "2021-12-20T23:00:41.620+09:00",
+  "@version" : "1",
+  "message" : "Initializing Spring embedded WebApplicationContext",
+  "logger_name" : "org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]",
+  "thread_name" : "restartedMain",
+  "level" : "INFO",
+  "level_value" : 20000
+}
+{
+  "@timestamp" : "2021-12-20T23:00:41.620+09:00",
+  "@version" : "1",
+  "message" : "Root WebApplicationContext: initialization completed in 1210 ms",
+  "logger_name" : "org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext",
+  "thread_name" : "restartedMain",
+  "level" : "INFO",
+  "level_value" : 20000
+}
+{
+  "@timestamp" : "2021-12-20T23:00:41.717+09:00",
+  "@version" : "1",
+  "message" : "HikariPool-1 - Starting...",
+  "logger_name" : "com.zaxxer.hikari.HikariDataSource",
+  "thread_name" : "restartedMain",
+  "level" : "INFO",
+  "level_value" : 20000
+}
+{
+  "@timestamp" : "2021-12-20T23:00:42.061+09:00",
+  "@version" : "1",
+  "message" : "HikariPool-1 - Start completed.",
+  "logger_name" : "com.zaxxer.hikari.HikariDataSource",
+  "thread_name" : "restartedMain",
+  "level" : "INFO",
+  "level_value" : 20000
+}
+{
+  "@timestamp" : "2021-12-20T23:00:42.072+09:00",
+  "@version" : "1",
+  "message" : "H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/shop?serverTimezone=UTC'",
+  "logger_name" : "org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration",
+  "thread_name" : "restartedMain",
+  "level" : "INFO",
+  "level_value" : 20000
+}
+{
+  "@timestamp" : "2021-12-20T23:00:42.225+09:00",
+  "@version" : "1",
+  "message" : "HHH000204: Processing PersistenceUnitInfo [name: default]",
+  "logger_name" : "org.hibernate.jpa.internal.util.LogHelper",
+  "thread_name" : "restartedMain",
+  "level" : "INFO",
+  "level_value" : 20000
+}
+{
+  "@timestamp" : "2021-12-20T23:00:42.270+09:00",
+  "@version" : "1",
+  "message" : "HHH000412: Hibernate ORM core version 5.6.1.Final",
+  "logger_name" : "org.hibernate.Version",
+  "thread_name" : "restartedMain",
+  "level" : "INFO",
+  "level_value" : 20000
+}
+{
+  "@timestamp" : "2021-12-20T23:00:42.380+09:00",
+  "@version" : "1",
+  "message" : "HCANN000001: Hibernate Commons Annotations {5.1.2.Final}",
+  "logger_name" : "org.hibernate.annotations.common.Version",
+  "thread_name" : "restartedMain",
+  "level" : "INFO",
+  "level_value" : 20000
+}
+{
+  "@timestamp" : "2021-12-20T23:00:42.449+09:00",
+  "@version" : "1",
+  "message" : "HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect",
+  "logger_name" : "org.hibernate.dialect.Dialect",
+  "thread_name" : "restartedMain",
+  "level" : "INFO",
+  "level_value" : 20000
+}
+{
+  "@timestamp" : "2021-12-20T23:00:42.794+09:00",
+  "@version" : "1",
+  "message" : "\n    \n    drop table if exists hibernate_sequence",
+  "logger_name" : "org.hibernate.SQL",
+  "thread_name" : "restartedMain",
+  "level" : "DEBUG",
+  "level_value" : 10000
+}
+{
+  "@timestamp" : "2021-12-20T23:00:42.819+09:00",
+  "@version" : "1",
+  "message" : "\n    \n    drop table if exists item",
+  "logger_name" : "org.hibernate.SQL",
+  "thread_name" : "restartedMain",
+  "level" : "DEBUG",
+  "level_value" : 10000
+}
+{
+  "@timestamp" : "2021-12-20T23:00:42.839+09:00",
+  "@version" : "1",
+  "message" : "\n    \n    create table hibernate_sequence (\n       next_val bigint\n    ) engine=InnoDB",
+  "logger_name" : "org.hibernate.SQL",
+  "thread_name" : "restartedMain",
+  "level" : "DEBUG",
+  "level_value" : 10000
+}
+{
+  "@timestamp" : "2021-12-20T23:00:42.866+09:00",
+  "@version" : "1",
+  "message" : "\n    \n    insert into hibernate_sequence values ( 1 )",
+  "logger_name" : "org.hibernate.SQL",
+  "thread_name" : "restartedMain",
+  "level" : "DEBUG",
+  "level_value" : 10000
+}
+{
+  "@timestamp" : "2021-12-20T23:00:42.872+09:00",
+  "@version" : "1",
+  "message" : "\n    \n    create table item (\n       item_id bigint not null,\n        item_detail longtext not null,\n        item_nm varchar(50) not null,\n        item_sell_status varchar(255),\n        price integer not null,\n        reg_time datetime(6),\n        stock_counter integer not null,\n        update_time datetime(6),\n        primary key (item_id)\n    ) engine=InnoDB",
+  "logger_name" : "org.hibernate.SQL",
+  "thread_name" : "restartedMain",
+  "level" : "DEBUG",
+  "level_value" : 10000
+}
+{
+  "@timestamp" : "2021-12-20T23:00:42.896+09:00",
+  "@version" : "1",
+  "message" : "HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]",
+  "logger_name" : "org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator",
+  "thread_name" : "restartedMain",
+  "level" : "INFO",
+  "level_value" : 20000
+}
+{
+  "@timestamp" : "2021-12-20T23:00:42.902+09:00",
+  "@version" : "1",
+  "message" : "Initialized JPA EntityManagerFactory for persistence unit 'default'",
+  "logger_name" : "org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean",
+  "thread_name" : "restartedMain",
+  "level" : "INFO",
+  "level_value" : 20000
+}
+{
+  "@timestamp" : "2021-12-20T23:00:42.938+09:00",
+  "@version" : "1",
+  "message" : "spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning",
+  "logger_name" : "org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration",
+  "thread_name" : "restartedMain",
+  "level" : "WARN",
+  "level_value" : 30000
+}
+{
+  "@timestamp" : "2021-12-20T23:00:43.737+09:00",
+  "@version" : "1",
+  "message" : "LiveReload server is running on port 35729",
+  "logger_name" : "org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer",
+  "thread_name" : "restartedMain",
+  "level" : "INFO",
+  "level_value" : 20000
+}
+{
+  "@timestamp" : "2021-12-20T23:00:43.744+09:00",
+  "@version" : "1",
+  "message" : "Exposing 4 endpoint(s) beneath base path '/actuator'",
+  "logger_name" : "org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver",
+  "thread_name" : "restartedMain",
+  "level" : "INFO",
+  "level_value" : 20000
+}
+{
+  "@timestamp" : "2021-12-20T23:00:43.774+09:00",
+  "@version" : "1",
+  "message" : "Starting ProtocolHandler [\"http-nio-8080\"]",
+  "logger_name" : "org.apache.coyote.http11.Http11NioProtocol",
+  "thread_name" : "restartedMain",
+  "level" : "INFO",
+  "level_value" : 20000
+}
+{
+  "@timestamp" : "2021-12-20T23:00:43.787+09:00",
+  "@version" : "1",
+  "message" : "Tomcat started on port(s): 8080 (http) with context path ''",
+  "logger_name" : "org.springframework.boot.web.embedded.tomcat.TomcatWebServer",
+  "thread_name" : "restartedMain",
+  "level" : "INFO",
+  "level_value" : 20000
+}
+{
+  "@timestamp" : "2021-12-20T23:00:43.802+09:00",
+  "@version" : "1",
+  "message" : "Started ShopxApplication in 4.048 seconds (JVM running for 4.877)",
+  "logger_name" : "com.lovelazur.shopx.ShopxApplication",
+  "thread_name" : "restartedMain",
+  "level" : "INFO",
+  "level_value" : 20000
+}
+{
+  "@timestamp" : "2021-12-20T23:28:05.384+09:00",
+  "@version" : "1",
+  "message" : "Closing JPA EntityManagerFactory for persistence unit 'default'",
+  "logger_name" : "org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean",
+  "thread_name" : "SpringApplicationShutdownHook",
+  "level" : "INFO",
+  "level_value" : 20000
+}
+{
+  "@timestamp" : "2021-12-20T23:28:05.387+09:00",
+  "@version" : "1",
+  "message" : "HikariPool-1 - Shutdown initiated...",
+  "logger_name" : "com.zaxxer.hikari.HikariDataSource",
+  "thread_name" : "SpringApplicationShutdownHook",
+  "level" : "INFO",
+  "level_value" : 20000
+}
+{
+  "@timestamp" : "2021-12-20T23:28:05.409+09:00",
+  "@version" : "1",
+  "message" : "HikariPool-1 - Shutdown completed.",
+  "logger_name" : "com.zaxxer.hikari.HikariDataSource",
+  "thread_name" : "SpringApplicationShutdownHook",
+  "level" : "INFO",
+  "level_value" : 20000
+}

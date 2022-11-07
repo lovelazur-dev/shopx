@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--<configuration>-->
+<!--    <property name="LOG_PATH" value="./logs"/>-->
+<!--    <appender name="TEXT_CONSOLE" class="ch.qos.logback.core.ConsoleAppender">-->
+<!--        <encoder>-->
+<!--            <charset>UTF-8</charset> <Pattern>%d %-4relative [%thread] %-5level %logger{35} - %msg%n</Pattern>-->
+<!--        </encoder>-->
+<!--    </appender>-->
+
+<!--    <appender name="JSON_FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">-->
+<!--        <File>${LOG_PATH}/log.json</File>-->
+<!--        <encoder class="net.logstash.logback.encoder.LogstashEncoder">-->
+<!--            <jsonGeneratorDecorator class="com.lovelazur.log.PrettyPrintingDecorator"/>-->
+<!--            <jsonFactoryDecorator class="com.lovelazur.log.ISO8601DateDecorator"/>-->
+<!--        </encoder>-->
+<!--        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">-->
+<!--            <FileNamePattern>${LOG_PATH}/log_%d{yyyy-MM-dd}.%i.json</FileNamePattern>-->
+<!--            <timeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">-->
+<!--                <maxFileSize>5MB</maxFileSize>-->
+<!--            </timeBasedFileNamingAndTriggeringPolicy>-->
+<!--            <maxHistory>3</maxHistory>-->
+<!--        </rollingPolicy>-->
+<!--    </appender>-->
+<!--</configuration>-->
+
+<configuration>
+    <appender name="stash" class="net.logstash.logback.appender.LogstashAccessTcpSocketAppender">
+        <destination>localhost:5000</destination>
+
+        <!-- encoder is required -->
+        <encoder class="net.logstash.logback.encoder.LogstashAccessEncoder" />
+    </appender>
+
+    <appender-ref ref="stash" />
+</configuration>
