@@ -8,7 +8,7 @@ import lombok.ToString;
 
 import javax.persistence.*;
 import java.time.LocalDateTime;
-
+//edit by jason 2023.06.28
 @Table(name = "item")
 @Entity
 @Getter
